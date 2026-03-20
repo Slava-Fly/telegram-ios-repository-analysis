@@ -55,10 +55,12 @@ sending → sent → delivered → read
 
 Пример структуры message cell:
 
+```
 MessageCell
 ├── текст сообщения
 ├── время
 └── deliveryStatusView
+```
 
 В случае изменения статуса должен обновляться только `deliveryStatusView`.
 
